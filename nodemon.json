@@ -1,0 +1,9 @@
+{
+    "env" : {
+    "process.env.MYSQL_USER" :"root",
+    "process.env.MYSQL_PASSWORD": "",
+    "process.env.MYSQL_DATABASE": "ecommerce",
+    "process.env.MYSQL_HOST": "localhost",
+    "process.env.MYSQL_PORT" : 3306
+    }
+}
