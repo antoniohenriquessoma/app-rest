@@ -1,5 +1,4 @@
 const express = require('express');
-const res = require('express/lib/response');
 const connection = require('../mysql');
 const router = express.Router();
 const multer = require('multer');

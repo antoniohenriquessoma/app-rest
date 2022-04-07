@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 
 const rotaProdutos = require("./routes/produtos");
 const rotaPedidos = require("./routes/pedidos");
-const req = require('express/lib/request');
+
 
 app.use(morgan('dev'));
 app.use('/uploads', express.static('uploads'))
