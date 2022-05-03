@@ -6,6 +6,7 @@ const bodyParser = require('body-parser');
 
 const rotaProdutos = require("./routes/produtos");
 const rotaPedidos = require("./routes/pedidos");
+const rotaUsuarios = require("./routes/usuarios");
 
 
 app.use(morgan('dev'));
@@ -28,6 +29,7 @@ app.use((req, res, next) =>{
 
 app.use('/produtos', rotaProdutos);
 app.use('/pedidos', rotaPedidos);
+app.use('/usuarios', rotaUsuarios);
 
 //NOT FOUND
 app.use((req, res, next) =>{
